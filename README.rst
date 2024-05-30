@@ -85,7 +85,7 @@ you have to follow at least the following steps:
 
      DISTRO_FEATURES += "rauc"
 
-2. Add a ``rauc_%.bbappend`` in your device-specific (BSP) layer
+2. Add a ``rauc-conf.bbappend`` in your device-specific (BSP) layer
    that installs your RAUC system configuration file under
    ``/etc/rauc/system.conf``. For information on how to write the RAUC
    update file, please refer to the RAUC user documentation [1]_::
